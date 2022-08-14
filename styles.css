@@ -47,6 +47,12 @@ a, a:hover, a:focus, a:active {
     background-color: white;
     flex: 1;
 }
+.page-second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
 
 .page-third {
     background-color: #E5E7EB;
@@ -94,4 +100,27 @@ img {
     font-weight: 700;
     font-size: 16px;
     border-radius: 10px;
+}
+.proffesors {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.square {
+    width: 128px;
+    height: auto;
+}
+.profils {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 300px;
+    align-items: center;
+    align-content: center;
+}
+.names {
+    max-width: 126px;
 }
