@@ -57,6 +57,8 @@ a, a:hover, a:focus, a:active {
 .page-third {
     background-color: #E5E7EB;
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
@@ -123,4 +125,24 @@ img {
 }
 .names {
     max-width: 126px;
+}
+
+.container {
+    align-self: center;
+    width: 704px;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    align-self: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 200;
+}
+.quoter {
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1F2937
 }
