@@ -37,6 +37,7 @@ a, a:hover, a:focus, a:active {
     flex: 1;
     padding-left: 230px;
     padding-right: 230px;
+    padding-bottom: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,6 +53,7 @@ a, a:hover, a:focus, a:active {
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    padding-bottom: 70px;
 }
 
 .page-third {
@@ -60,6 +62,7 @@ a, a:hover, a:focus, a:active {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 70px;
 }
 .page-fourth{
     display: flex;
@@ -128,12 +131,13 @@ img {
     gap: 64px;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 300px;
+    max-height: 350px;
     align-items: center;
     align-content: center;
 }
 .names {
-    max-width: 126px;
+    max-width: 128px;
+    text-align: center;
 }
 
 .container {
@@ -163,7 +167,7 @@ img {
     justify-content: space-between;
     align-items: center;
     gap: 280px;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 .text-container {
     display: flex;
