@@ -37,7 +37,8 @@ a, a:hover, a:focus, a:active {
     flex: 1;
     padding-left: 230px;
     padding-right: 230px;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
+    padding-top: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
